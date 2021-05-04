@@ -1,0 +1,177 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ren/Desktop/my-code-list/ARTABACCO
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64399
+Successfully changed project path to: /Users/ren/Desktop/my-code-list/ARTABACCO
+/Users/ren/Desktop/my-code-list/ARTABACCO
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ren/Desktop/my-code-list/ARTABACCO/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-30 15:04:27.091 Unity[30142:1081964] (null) preferred device: Apple M1 (high power)
+2021-04-30 15:04:27.091 Unity[30142:1081964] Metal devices available: 1
+2021-04-30 15:04:27.091 Unity[30142:1081964] 0: Apple M1 (high power)
+2021-04-30 15:04:27.092 Unity[30142:1081964] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001288 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 34.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.722 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 1.490750 ms (FindLiveObjects: 0.163041 ms CreateObjectMapping: 0.036334 ms MarkObjects: 1.194334 ms  DeleteObjects: 0.096125 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da87e921333ba4c29a91c5fa57cb6d') in 0.006370 seconds
+  Import took 0.008792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(5040ff35809714c9f899bd2e7ae0f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(5040ff35809714c9f899bd2e7ae0f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e406b13926f09d1b522f0120db0b38c') in 0.000497 seconds
+  Import took 0.002239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.505450 seconds.
+  path: Assets/GPSLocation
+  artifactKey: Guid(d6150de730d3d4f709991665b598cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation using Guid(d6150de730d3d4f709991665b598cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd00e447651a1350a965f625c771f24') in 0.001063 seconds
+  Import took 0.003473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.314172 seconds.
+  path: Assets/GPSLocation/Scenes
+  artifactKey: Guid(f81745d6d7ecd4e2ebbf57d44d0683ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scenes using Guid(f81745d6d7ecd4e2ebbf57d44d0683ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932ec9bcd4d2def29c853e6afa6a6655') in 0.001240 seconds
+  Import took 0.003827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.973926 seconds.
+  path: Assets/GPSLocation/Scripts
+  artifactKey: Guid(114329d8e03cb4385b20478bb6c7176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scripts using Guid(114329d8e03cb4385b20478bb6c7176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0f2f12030fb5335d5b08ff189ecc0') in 0.001127 seconds
+  Import took 0.003607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.451786 seconds.
+  path: Assets/GPSLocation/Scenes/GPSLocation.unity
+  artifactKey: Guid(78bc89aeee9cc471c84f9caa654ae7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scenes/GPSLocation.unity using Guid(78bc89aeee9cc471c84f9caa654ae7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32462c605da67901a9c1305a2e748279') in 0.011971 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002674 seconds.
+  path: Assets/GPSLocation/Scenes/GPSLocation.unity
+  artifactKey: Guid(78bc89aeee9cc471c84f9caa654ae7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scenes/GPSLocation.unity using Guid(78bc89aeee9cc471c84f9caa654ae7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32462c605da67901a9c1305a2e748279') in 0.001548 seconds
+  Import took 0.003945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.306162 seconds.
+  path: Assets/GPSLocation/Scripts/GPSLocation.cs
+  artifactKey: Guid(ed027f291bc41412c91010201cb19e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scripts/GPSLocation.cs using Guid(ed027f291bc41412c91010201cb19e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8651a0a5a0574b43a8bf80f0eed80ea8') in 0.194241 seconds
+  Import took 0.196695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 1.469792 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.035708 ms MarkObjects: 1.217208 ms  DeleteObjects: 0.073458 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.8 MB.
+System memory in use after: 139.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.255791 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.035917 ms MarkObjects: 1.044625 ms  DeleteObjects: 0.063584 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100249.455624 seconds.
+  path: Assets/GPSLocation/Scripts/GPSLocation.cs
+  artifactKey: Guid(ed027f291bc41412c91010201cb19e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPSLocation/Scripts/GPSLocation.cs using Guid(ed027f291bc41412c91010201cb19e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3fe9f190a9cece1d0ccb1aa3cb6049') in 0.138964 seconds
+  Import took 0.252978 seconds .
+
